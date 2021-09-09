@@ -108,7 +108,7 @@ if not os.path.exists(gui_org_file):
 # create_trans_input(org_file, label_start_line)
 
 # 翻訳データ置き換え
-script_trans = transrate(script_org_file, label_start_line)
+script_trans = transrate(script_org_file, translate_file, label_start_line)
 with open(script_file, mode='w', encoding='utf-8') as f:
     f.write(script_trans)
 

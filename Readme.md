@@ -5,8 +5,8 @@ python 3.8以降がインストールされていること
 
 #### 手順
 
-`VelCensored-pc/game`フォルダで`powershell`を開きます。  
-（アドレスバーに`powershell`と入力し、エンター。）
+`./VelCensored-pc/game`フォルダで`powershell`を開きます。  
+（上記フォルダを開いたエクスプローラのアドレスバーに`powershell`と入力し、エンター。）
 
 ```shell
 # 翻訳ファイルDL
